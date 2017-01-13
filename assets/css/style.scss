@@ -3,11 +3,13 @@
 
 @import "{{ site.theme }}";
 
+$yellow: #f0db4f;
+$black: #444;
+
 .page-header {
   background-color:#555;
   background-image: radial-gradient(#555, #333);
   
-  color: #f0db4f;
 
   @include large {
     padding: 0rem;
@@ -19,6 +21,23 @@
 
   @include small {
     padding: 0rem;
+  }
+}
+
+.mainlogo {
+  position:relative;
+  display:block;
+  .js {
+    padding:20px;
+    background:$yellow;
+    color: $black;
+    display: inline-block;
+    vertical-align:middle;
+  }
+  .wiki {
+    color: $yellow;
+    display: inline-block;
+    vertical-align:middle;
   }
 }
 
