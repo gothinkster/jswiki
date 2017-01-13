@@ -25,8 +25,14 @@ $black: #444;
   }
   
   .soc-links {
+    opacity:0.5;
     a {
-     color: #fff; 
+      color: #fff;
+      font-weight: 300;
+      padding: 10px;
+    }
+    .thinkster img {
+      height:1.5rem;
     }
   }
 }
