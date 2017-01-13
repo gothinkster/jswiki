@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 
 $yellow: #f0db4f;
+$yellow-dark: #e4cf41;
 $black: #444;
 
 .page-header {
@@ -47,7 +48,7 @@ $black: #444;
 
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  color: $yellow;
+  color: $yellow-dark;
 }
 
 
