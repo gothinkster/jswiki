@@ -25,10 +25,13 @@ $black: #444;
 }
 
 .mainlogo {
+  padding-top:15px;
+  font-size: 3em;
   position:relative;
   display:block;
   .js {
-    padding:20px;
+    padding:0px 10px 5px 15px;
+    margin-right: 7px;
     background:$yellow;
     color: $black;
     display: inline-block;
