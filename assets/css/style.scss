@@ -23,6 +23,12 @@ $black: #444;
   @include small {
     padding: 0rem;
   }
+  
+  .soc-links {
+    a {
+     color: #fff; 
+    }
+  }
 }
 
 .mainlogo {
