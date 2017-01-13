@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 
 .page-header {
-
+  background-color:#555;
+  background-image: radial-gradient(#555, #333);
 
   @include large {
     padding: 0rem;
