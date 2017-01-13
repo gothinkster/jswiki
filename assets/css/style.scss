@@ -3,6 +3,18 @@
 
 @import "{{ site.theme }}";
 
-.jake {
-  color:#fff;
+.page-header {
+
+
+  @include large {
+    padding: 0rem;
+  }
+
+  @include medium {
+    padding: 0rem;
+  }
+
+  @include small {
+    padding: 0rem;
+  }
 }
