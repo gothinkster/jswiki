@@ -25,6 +25,7 @@ $black: #444;
   }
   
   .soc-links {
+    padding: 15px 0;
     opacity:0.5;
     a {
       color: #fff;
@@ -32,6 +33,7 @@ $black: #444;
       padding: 10px;
     }
     .thinkster img {
+      margin-bottom: -5px;
       height:1.5rem;
     }
   }
