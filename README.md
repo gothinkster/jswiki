@@ -1,4 +1,4 @@
-# The open source wiki for modern Javascript terminology.
+# The wiki for modern Javascript terminology.
 
 You can use the [editor on GitHub](https://github.com/gothinkster/jswiki/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
