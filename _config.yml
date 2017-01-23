@@ -3,6 +3,13 @@ collections:
   terms:
     output: true
     permalink: /terms/:title
+    
+defaults:
+  - scope:
+      path: ""
+      type: terms
+    values:
+      layout: default    
 
 gems:
   - jekyll-seo-tag
