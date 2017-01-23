@@ -4,6 +4,6 @@ Coming soon! Star the [Github repo](https://github.com/gothinkster/jswiki/) to s
 
 ## Latest terms added
 
-{% for term in site.terms %}
+{% for term in site.terms limit:1 %}
 <h3><a href="{{ term.url }}">{{ term.title }}</a></h3>
 {% endfor %}
