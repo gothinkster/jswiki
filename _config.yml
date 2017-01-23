@@ -1,6 +1,8 @@
 theme: jekyll-theme-cayman
 collections:
-- terms
+  terms:
+    output: true
+    permalink: /:path/:title
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
