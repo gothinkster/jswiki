@@ -3,7 +3,6 @@ collections:
   terms:
     output: true
     permalink: /terms/:title
-    layout: page
 
 gems:
   - jekyll-seo-tag
