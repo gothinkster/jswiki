@@ -2,7 +2,13 @@ theme: jekyll-theme-cayman
 collections:
   terms:
     output: true
-    permalink: /:path/:title
+    permalink: :path/:title
+defaults:
+  - scope:
+      path: "/terms/"
+      type: terms
+    values:
+      layout: page
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
