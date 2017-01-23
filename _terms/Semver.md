@@ -1,5 +1,6 @@
 ---
-title: Semver (Semantic Versioning)
 ---
+
+# Semver (Semantic Versioning)
 
 This is the content of the page.
