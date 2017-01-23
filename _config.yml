@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 collections:
   terms:
     output: true
-    permalink: /terms/:title
+    permalink: /:collection/:title
     
 defaults:
   - scope:
