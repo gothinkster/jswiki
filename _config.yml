@@ -1,4 +1,6 @@
 theme: jekyll-theme-cayman
+collections:
+- terms
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
