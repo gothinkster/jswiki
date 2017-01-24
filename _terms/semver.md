@@ -5,4 +5,4 @@ description: Semver is a way to easily manage breaking versions of dependencies.
 
 # Semver (Semantic Versioning)
 
-This is the content of the page.
+__Semver__ is a widely adopted way of versioning packages.
