@@ -24,6 +24,7 @@
 
     <section class="main-content">
       
+      {{ content }}
       
 {% for c in site.terms %}
 {% if c.title == page.title %}
@@ -84,8 +85,6 @@
   </div>
   {% endif %} 
 </div>
-      
-      {{ content }}
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
