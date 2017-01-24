@@ -67,19 +67,21 @@
   {% endfor %}
 {% endif %}
 
-<div id="post-nav">
-    <div >    
-        {% if prevPost.url %}
-        <a class="prev" href="{{prevPost.url}}">
-            <span>&lt; {{prevPost.title}}</span>
-        </a> 
-        {% endif %} 
-        {% if nextPost.url %} 
-        <a class="next" href="{{nextPost.url}}">
-            <span>{{nextPost.title}} &gt;</span>
-        </a> 
-        {% endif %} 
-    </div>
+<div id="term-nav">  
+  {% if prevPost.url %}
+  <div class="prev">
+    <a class="prev" href="{{prevPost.url}}">
+        <span>&lt; {{prevPost.title}}</span>
+    </a> 
+  </div>
+  {% endif %} 
+  {% if nextPost.url %} 
+  <div class="next">
+    <a class="next" href="{{nextPost.url}}">
+        <span>{{nextPost.title}} &gt;</span>
+    </a> 
+  </div>
+  {% endif %} 
 </div>
       
       {{ content }}
