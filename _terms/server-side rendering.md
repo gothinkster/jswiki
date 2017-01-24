@@ -1,4 +1,5 @@
 ---
+title: Server-side Rendering (Isomorphic, Universal)
 ---
 
 # Server-side Rendering (Isomorphic, Universal)
