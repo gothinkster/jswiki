@@ -1,4 +1,5 @@
 ---
+title: Semver (Semantic Versioning)
 description: Semver is a way to easily manage breaking versions of dependencies.
 ---
 
