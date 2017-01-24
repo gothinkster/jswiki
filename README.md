@@ -1,4 +1,4 @@
-# ![JS Wiki](logo_white_long.png)
+# ![JS Wiki](logo_readme.png)
 
 > ### The wiki for modern Javascript terminology.
 
